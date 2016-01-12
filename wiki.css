@@ -1,0 +1,119 @@
+html {
+  overflow-y: scroll;
+}
+
+.row.text-center > div {
+  display: inline-block ;
+  float: none;
+}
+
+
+.main-title {
+  padding-top: 20px;
+  color: red;
+  text-shadow: -2px 2px 0px #000000;
+  font-size: 50px;
+  text-align: center;
+}
+
+.sub-title {
+  padding-bottom: 40px;
+  color: #000000;
+  text-shadow: -2px 2px 0px #808080;
+  font-size: 30px;
+  text-align: center;
+}
+
+.search {
+  padding-top: 4px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  color: black;
+  height: 30px;
+  width: 100px;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;  
+}
+
+#search_button:hover {
+  cursor: pointer;
+}
+
+#search_it {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#rand {
+  margin-bottom: 20px;
+}
+
+input {
+  border: 0px;
+  height: 20px;
+  width: 225px;
+  padding-left: 5px;
+  outline: 0px;
+}
+
+ul {
+  list-style: none;
+  background-color: white;
+  padding-left: 5px;
+}
+
+.ui-helper-hidden-accessible {
+  display:none;
+}
+
+.pad {
+  padding-left: 0px;
+  margin-top: 20px;
+}
+
+.story {
+  border: 0px solid;
+  padding: 0px;
+  margin: 0px;
+  background-color: #
+}
+
+.double_line {
+  height: 44px;
+}
+
+.quad_line {
+  height: 86px;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+
+.dodo {
+  border: 0px solid #C0C0C0;
+}
+
+
+#title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#date {
+  text-align: right;
+}
+
+#likes {
+  text-align: right;
+}
+
+#debug {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
